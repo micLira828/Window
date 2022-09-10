@@ -1,0 +1,38 @@
+
+/*CSS for the window*/
+.window{fill:#ED1C24;
+    stroke:#000000;
+    stroke-miterlimit:10;
+    transform: translateX(-75%);
+    animation: move_window_over_text 1.5s ease-in forwards;
+}
+
+.st1{
+    font-family:'KozGoPr6N-Regular-90ms-RKSJ-H';
+    opacity: 0;
+    animation: fade_in_text 15s ease-in forwards;
+}
+.st2{font-size:46.3309px;}
+
+
+    
+
+
+@keyframes move_window_over_text{
+    from{
+        transform: translateX(-75%);}
+
+    to{
+        transform:translateX(0);
+    }
+}
+
+
+@keyframes fade_in_text{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
