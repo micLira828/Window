@@ -9,8 +9,7 @@
 
 .st1{
     font-family:'KozGoPr6N-Regular-90ms-RKSJ-H';
-    opacity: 0;
-    animation: fade_in_text 15s ease-in forwards;
+	z-index: -1;
 }
 .st2{font-size:46.3309px;}
 
@@ -28,11 +27,11 @@
 }
 
 
-@keyframes fade_in_text{
+/*@keyframes fade_in_text{
     from{
         opacity: 0;
     }
     to{
         opacity: 1;
     }
-}
+}*/
